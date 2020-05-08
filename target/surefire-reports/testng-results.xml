@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6404" started-at="2020-05-08T09:09:16 ICT" finished-at="2020-05-08T09:09:22 ICT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6404" started-at="2020-05-08T09:09:16 ICT" finished-at="2020-05-08T09:09:22 ICT">
+      <class name="selenium.runTestcaseDemo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.runTestcaseDemo@3e6fa38a]" name="beforeClass" is-config="true" duration-ms="6242" started-at="2020-05-08T09:09:16 ICT" finished-at="2020-05-08T09:09:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_DemoRunOnJenkins()[pri:0, instance:selenium.runTestcaseDemo@3e6fa38a]" name="TC_01_DemoRunOnJenkins" duration-ms="52" started-at="2020-05-08T09:09:22 ICT" finished-at="2020-05-08T09:09:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_DemoRunOnJenkins -->
+        <test-method status="PASS" signature="TC_02_getURL()[pri:0, instance:selenium.runTestcaseDemo@3e6fa38a]" name="TC_02_getURL" duration-ms="4" started-at="2020-05-08T09:09:22 ICT" finished-at="2020-05-08T09:09:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_getURL -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.runTestcaseDemo@3e6fa38a]" name="afterClass" is-config="true" duration-ms="84" started-at="2020-05-08T09:09:22 ICT" finished-at="2020-05-08T09:09:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.runTestcaseDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
