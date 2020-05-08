@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>GITHUB_JAVA_MAVEN_JENKIN</groupId>
-  <artifactId>GITHUB_JAVA_MAVEN_JENKIN</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>GITHUB_JAVA_MAVEN_JENKIN</name>
-  
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>GITHUB_JAVA_MAVEN_JENKIN</groupId>
+	<artifactId>GITHUB_JAVA_MAVEN_JENKIN</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>GITHUB_JAVA_MAVEN_JENKIN</name>
+
 	<properties>
 		<webdriver.version>3.141.59</webdriver.version>
 		<testng.version>7.1.0</testng.version>
@@ -27,6 +29,12 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-support</artifactId>
 			<version>${webdriver.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.6.2</version>
 		</dependency>
 	</dependencies>
 
@@ -55,5 +63,5 @@
 			</plugin>
 		</plugins>
 	</build>
-  
+
 </project>

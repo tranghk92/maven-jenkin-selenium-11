@@ -10,11 +10,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class runTestcaseDemo {
 	WebDriver driver;
 	
 	@BeforeClass
 	public void beforeClass() {
+		WebDriverManager.firefoxdriver().setup();
+		//System.setProperty("webdriver.gecko.driver", "/Users/kimtrang/Desktop/selenium/geckodriver");
 		driver = new FirefoxDriver();
 		driver.get("http://demo.guru99.com/V4/");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
