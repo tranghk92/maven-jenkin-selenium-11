@@ -18,7 +18,6 @@ public class runTestcaseDemo {
 	@BeforeClass
 	public void beforeClass() {
 		WebDriverManager.chromedriver().setup();
-		//System.setProperty("webdriver.gecko.driver", "/Users/kimtrang/Desktop/selenium/geckodriver");
 		driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/V4/");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

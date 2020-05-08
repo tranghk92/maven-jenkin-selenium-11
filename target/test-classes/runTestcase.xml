@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="selenium.runTestcaseDemo"/>
+      <class name="selenium.runTestcaseDemoFF"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
