@@ -17,7 +17,7 @@ public class runTestcaseDemoFF {
 	
 	@BeforeClass
 	public void beforeClass() {
-		WebDriverManager.firefoxdriver().version("76.0").setup();
+		WebDriverManager.firefoxdriver().arch32().setup();
 		driver = new FirefoxDriver();
 		driver.get("http://demo.guru99.com/V4/");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
