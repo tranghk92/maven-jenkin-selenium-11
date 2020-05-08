@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -13,6 +13,13 @@ import org.testng.annotations.Test;
 public class runTestcaseDemo {
 	WebDriver driver;
 	
+	@BeforeClass
+	public void beforeClass() {
+		driver = new ChromeDriver();
+		driver.get("http://demo.guru99.com/V4/");
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+	}
 	@Test
 	public void TC_01_DemoRunOnJenkins() {
 		String loginTitle = driver.getTitle();
@@ -25,13 +32,6 @@ public class runTestcaseDemo {
 	  String loginUrl = driver.getCurrentUrl();
 	  Assert.assertEquals("http://demo.guru99.com/V4/", loginUrl);
 	  
-  }
-  @BeforeClass
-  public void beforeClass() {
-	  driver = new FirefoxDriver();
-	  driver.get("http://demo.guru99.com/V4/");
-	  driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-	  driver.manage().window().maximize();
   }
 
   @AfterClass
