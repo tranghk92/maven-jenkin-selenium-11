@@ -8,8 +8,8 @@
 	<name>GITHUB_JAVA_MAVEN_JENKIN</name>
 
 	<properties>
-		<webdriver.version>3.141.59</webdriver.version>
-		<testng.version>7.1.0</testng.version>
+		<webdriver.version>2.53.1</webdriver.version>
+		<testng.version>6.8</testng.version>
 	</properties>
 
 	<dependencies>

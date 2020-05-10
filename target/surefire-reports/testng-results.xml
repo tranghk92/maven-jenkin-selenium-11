@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17113" started-at="2020-05-08T21:52:44 ICT" finished-at="2020-05-08T21:53:01 ICT">
+  <suite name="Suite" duration-ms="11855" started-at="2020-05-10T02:38:27Z" finished-at="2020-05-10T02:38:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17113" started-at="2020-05-08T21:52:44 ICT" finished-at="2020-05-08T21:53:01 ICT">
+    <test name="Test" duration-ms="11855" started-at="2020-05-10T02:38:27Z" finished-at="2020-05-10T02:38:39Z">
       <class name="selenium.runTestcaseDemoFF">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.runTestcaseDemoFF@1a968a59]" name="beforeClass" is-config="true" duration-ms="15225" started-at="2020-05-08T21:52:44 ICT" finished-at="2020-05-08T21:53:00 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.runTestcaseDemoFF@2f7a2457]" name="beforeClass" is-config="true" duration-ms="11678" started-at="2020-05-10T09:38:27Z" finished-at="2020-05-10T09:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_DemoRunOnJenkins()[pri:0, instance:selenium.runTestcaseDemoFF@1a968a59]" name="TC_01_DemoRunOnJenkins" duration-ms="77" started-at="2020-05-08T21:53:00 ICT" finished-at="2020-05-08T21:53:00 ICT">
+        <test-method status="PASS" signature="TC_01_DemoRunOnJenkins()[pri:0, instance:selenium.runTestcaseDemoFF@2f7a2457]" name="TC_01_DemoRunOnJenkins" duration-ms="69" started-at="2020-05-10T09:38:39Z" finished-at="2020-05-10T09:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_DemoRunOnJenkins -->
-        <test-method status="PASS" signature="TC_02_getURL()[pri:0, instance:selenium.runTestcaseDemoFF@1a968a59]" name="TC_02_getURL" duration-ms="3" started-at="2020-05-08T21:53:00 ICT" finished-at="2020-05-08T21:53:00 ICT">
+        <test-method status="PASS" signature="TC_02_getURL()[pri:0, instance:selenium.runTestcaseDemoFF@2f7a2457]" name="TC_02_getURL" duration-ms="7" started-at="2020-05-10T09:38:39Z" finished-at="2020-05-10T09:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_getURL -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.runTestcaseDemoFF@1a968a59]" name="afterClass" is-config="true" duration-ms="1771" started-at="2020-05-08T21:53:00 ICT" finished-at="2020-05-08T21:53:01 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.runTestcaseDemoFF@2f7a2457]" name="afterClass" is-config="true" duration-ms="93" started-at="2020-05-10T09:38:39Z" finished-at="2020-05-10T09:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

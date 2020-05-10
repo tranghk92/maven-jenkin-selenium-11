@@ -10,14 +10,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class runTestcaseDemoFF {
 	WebDriver driver;
 	
 	@BeforeClass
 	public void beforeClass() {
-		WebDriverManager.firefoxdriver().arch64().setup();
+		//WebDriverManager.firefoxdriver().setup();
 		driver = new FirefoxDriver();
 		driver.get("http://demo.guru99.com/V4/");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
